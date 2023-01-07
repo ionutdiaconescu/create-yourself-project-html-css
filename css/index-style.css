@@ -1,0 +1,717 @@
+/*master styles*/
+html {
+  height: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+body {
+  font-family: "Loto", sans-serif;
+  margin: 0px;
+  padding: 0;
+}
+
+.Nav-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/*nav styles*/
+.Nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.left-side {
+  display: flex;
+}
+
+.Nav-bar>.left-side>div {
+  margin-right: 20px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.nav-link-left {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.nav-link-left a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link-left:hover {
+  border-bottom: 2px solid black;
+}
+
+.nav-link-left a:hover {
+  color: black;
+}
+
+.right-side {}
+
+/*portofolio styles*/
+.img-darken{
+  transition: 1s;
+  filter: brightness(10%);
+}
+.piesele-continutului {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.piesa-continutului {
+  position: relative;
+
+}
+.Create-yourself {
+height: 250px;
+width: 100%;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+.Create-yourself-txt{
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  height: 100%;
+  text-align:center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.Create-yourself-txt{
+  transition: 1s;
+  font-weight: 600;
+  color: transparent;
+}
+.Create-yourself-txt:hover{
+  font-weight: 600;
+  color: white;
+}
+
+.Imagination-img {
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  }
+  .Imagination-txt{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100%;
+    text-align:center;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+  }
+  .Imagination-txt{
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+  }
+  .Imagination-txt:hover{
+    font-weight: 600;
+    color: white;
+  }
+  
+
+  .Feel-good-in-your-body {
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    }
+    .Feel-good-in-your-body-txt{
+      position: absolute;
+      top: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+      height: 100%;
+      text-align:center;
+      padding-left: 100px;
+      padding-right: 100px;
+      
+    }
+    .Feel-good-in-your-body-txt{
+      transition: 1s;
+      font-weight: 600;
+      color: transparent;
+    }
+    .Feel-good-in-your-body-txt:hover{
+      font-weight: 600;
+      color: white;
+    }
+    
+    .Read {
+      height: 250px;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      
+      }
+      .Read-txt{
+        position: absolute;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        height: 100%;
+        text-align:center;
+        padding-left: 100px;
+        padding-right: 100px;
+        
+      }
+      .Read-txt{
+        transition: 1s;
+        font-weight: 600;
+        color: transparent;
+      }
+      .Read-txt:hover{
+        font-weight: 600;
+        color: white;
+      }
+
+      
+    .Find-your-form-of-meditation {
+      height: 250px;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      
+      }
+      .Find-your-form-of-meditation-txt{
+        position: absolute;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        height: 100%;
+        text-align:center;
+        padding-left: 100px;
+        padding-right: 100px;
+        
+      }
+      .Find-your-form-of-meditation-txt{
+        transition: 1s;
+        font-weight: 600;
+        color: transparent;
+      }
+      .Find-your-form-of-meditation-txt:hover{
+        font-weight: 600;
+        color: white;
+      }
+
+      .Work-on-your-character {
+        height: 250px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        }
+        .Work-on-your-character-txt{
+          position: absolute;
+          top: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content:center;
+          align-items: center;
+          height: 100%;
+          text-align:center;
+          padding-left: 100px;
+          padding-right: 100px;
+          
+        }
+        .Work-on-your-character-txt{
+          transition: 1s;
+          font-weight: 600;
+          color: transparent;
+        }
+        .Work-on-your-character-txt:hover{
+          font-weight: 600;
+          color: white;
+        }
+
+
+        
+      .Develop-your-humor {
+        height: 250px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        }
+        .Develop-your-humor-txt{
+          position: absolute;
+          top: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content:center;
+          align-items: center;
+          height: 100%;
+          text-align:center;
+          padding-left: 100px;
+          padding-right: 100px;
+          
+        }
+        .Develop-your-humor-txt{
+          transition: 1s;
+          font-weight: 600;
+          color: transparent;
+        }
+        .Develop-your-humor-txt:hover{
+          font-weight: 600;
+          color: white;
+        }
+
+        
+        
+      .Body-language {
+        height: 250px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        }
+        .Body-language-txt {
+          position: absolute;
+          top: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content:center;
+          align-items: center;
+          height: 100%;
+          text-align:center;
+          padding-left: 100px;
+          padding-right: 100px;
+          
+        }
+        .Body-language-txt{
+          transition: 1s;
+          font-weight: 600;
+          color: transparent;
+        }
+        .Body-language-txt:hover{
+          font-weight: 600;
+          color: white;
+        }
+
+      .Smile-positivity {
+        height: 250px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        }
+        .Smile-positivity-txt {
+          position: absolute;
+          top: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content:center;
+          align-items: center;
+          height: 100%;
+          text-align:center;
+          padding-left: 100px;
+          padding-right: 100px;
+          
+        }
+        .Smile-positivity-txt {
+          transition: 1s;
+          font-weight: 600;
+          color: transparent;
+        }
+        .Smile-positivity-txt:hover {
+          font-weight: 600;
+          color: white;
+        }
+
+        
+      .Belive-in-yourself {
+        height: 250px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        }
+        .Belive-in-yourself-txt {
+          position: absolute;
+          top: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content:center;
+          align-items: center;
+          height: 100%;
+          text-align:center;
+          padding-left: 100px;
+          padding-right: 100px;
+          
+        }
+        .Belive-in-yourself-txt {
+          transition: 1s;
+          font-weight: 600;
+          color: transparent;
+        }
+        .Belive-in-yourself-txt:hover {
+          font-weight: 600;
+          color: white;
+        }
+
+      .Play-chess {
+        height: 250px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        }
+        .Play-chess-txt {
+          position: absolute;
+          top: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content:center;
+          align-items: center;
+          height: 100%;
+          text-align:center;
+          padding-left: 100px;
+          padding-right: 100px;
+          
+        }
+        .Play-chess-txt {
+          transition: 1s;
+          font-weight: 600;
+          color: transparent;
+        }
+        .Play-chess-txt:hover {
+          font-weight: 600;
+          color: white;
+        }
+
+        .Non-dominant-hand {
+          height: 250px;
+          width: 100%;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          }
+          .Non-dominant-hand-txt {
+            position: absolute;
+            top: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+            height: 100%;
+            text-align:center;
+            padding-left: 100px;
+            padding-right: 100px;
+            
+          }
+          .Non-dominant-hand-txt {
+            transition: 1s;
+            font-weight: 600;
+            color: transparent;
+          }
+          .Non-dominant-hand-txt:hover {
+            font-weight: 600;
+            color: white;
+          }
+
+          .Write-thoughts {
+            height: 250px;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            }
+            .Write-thoughts-txt {
+              position: absolute;
+              top: 0;
+              display: flex;
+              flex-direction: column;
+              justify-content:center;
+              align-items: center;
+              height: 100%;
+              text-align:center;
+              padding-left: 100px;
+              padding-right: 100px;
+              
+            }
+            .Write-thoughts-txt {
+              transition: 1s;
+              font-weight: 600;
+              color: transparent;
+            }
+            .Write-thoughts-txt:hover {
+              font-weight: 600;
+              color: white;
+            }
+
+            
+          .Socialize {
+            height: 250px;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            }
+            .Socialize-txt {
+              position: absolute;
+              top: 0;
+              display: flex;
+              flex-direction: column;
+              justify-content:center;
+              align-items: center;
+              height: 100%;
+              text-align:center;
+              padding-left: 100px;
+              padding-right: 100px;
+              
+            }
+            .Socialize-txt {
+              transition: 1s;
+              font-weight: 600;
+              color: transparent;
+            }
+            .Socialize-txt:hover {
+              font-weight: 600;
+              color: white;
+            }
+
+          .Diction-exercices {
+            height: 250px;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            }
+            .Diction-exercices-txt {
+              position: absolute;
+              top: 0;
+              display: flex;
+              flex-direction: column;
+              justify-content:center;
+              align-items: center;
+              height: 100%;
+              text-align:center;
+              padding-left: 100px;
+              padding-right: 100px;
+              
+            }
+            .Diction-exercices-txt {
+              transition: 1s;
+              font-weight: 600;
+              color: transparent;
+            }
+            .Diction-exercices-txt:hover {
+              font-weight: 600;
+              color: white;
+            }
+
+            
+          .New-language {
+            height: 250px;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            }
+            .New-language-txt {
+              position: absolute;
+              top: 0;
+              display: flex;
+              flex-direction: column;
+              justify-content:center;
+              align-items: center;
+              height: 100%;
+              text-align:center;
+              padding-left: 100px;
+              padding-right: 100px;
+              
+            }
+            .New-language-txt {
+              transition: 1s;
+              font-weight: 600;
+              color: transparent;
+            }
+            .New-language-txt:hover {
+              font-weight: 600;
+              color: white;
+            }
+
+            .play-on-instrument {
+              height: 250px;
+              width: 100%;
+              background-size: cover;
+              background-position: center;
+              background-repeat: no-repeat;
+              }
+              .play-on-instrument-txt {
+                position: absolute;
+                top: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content:center;
+                align-items: center;
+                height: 100%;
+                text-align:center;
+                padding-left: 100px;
+                padding-right: 100px;
+                
+              }
+              .play-on-instrument-txt {
+                transition: 1s;
+                font-weight: 600;
+                color: transparent;
+              }
+              .play-on-instrument-txt:hover {
+                font-weight: 600;
+                color: white;
+              }
+
+              .Paint {
+                height: 250px;
+                width: 100%;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                }
+                .Paint-txt {
+                  position: absolute;
+                  top: 0;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content:center;
+                  align-items: center;
+                  height: 100%;
+                  text-align:center;
+                  padding-left: 100px;
+                  padding-right: 100px;
+                  
+                }
+                .Paint-txt {
+                  transition: 1s;
+                  font-weight: 600;
+                  color: transparent;
+                }
+                .Paint-txt:hover {
+                  font-weight: 600;
+                  color: white;
+                }
+
+
+                .Dance {
+                  height: 250px;
+                  width: 100%;
+                  background-size: cover;
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  }
+                  .Dance-txt {
+                    position: absolute;
+                    top: 0;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content:center;
+                    align-items: center;
+                    height: 100%;
+                    text-align:center;
+                    padding-left: 100px;
+                    padding-right: 100px;
+                    
+                  }
+                  .Dance-txt {
+                    transition: 1s;
+                    font-weight: 600;
+                    color: transparent;
+                  }
+                  .Dance-txt:hover {
+                    font-weight: 600;
+                    color: white;
+                  }
+
+                  
+                .Help-someone {
+                  height: 250px;
+                  width: 100%;
+                  background-size: cover;
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  }
+                  .Help-someone-txt {
+                    position: absolute;
+                    top: 0;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content:center;
+                    align-items: center;
+                    height: 100%;
+                    text-align:center;
+                    padding-left: 100px;
+                    padding-right: 100px;
+                    
+                  }
+                  .Help-someone-txt {
+                    transition: 1s;
+                    font-weight: 600;
+                    color: transparent;
+                  }
+                  .Help-someone-txt:hover {
+                    font-weight: 600;
+                    color: white;
+                  }
+
+                  
+                  
+                .Love-yourself {
+                  height: 250px;
+                  width: 100%;
+                  background-size: cover;
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  }
+                  .Love-yourself-txt {
+                    position: absolute;
+                    top: 0;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content:center;
+                    align-items: center;
+                    height: 100%;
+                    text-align:center;
+                    padding-left: 100px;
+                    padding-right: 100px;
+                    
+                  }
+                  .Love-yourself-txt {
+                    transition: 1s;
+                    font-weight: 600;
+                    color: transparent;
+                  }
+                  .Love-yourself-txt:hover {
+                    font-weight: 600;
+                    color: white;
+                  }
